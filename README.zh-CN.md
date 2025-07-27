@@ -74,16 +74,14 @@
 
 1. **克隆仓库**
 ```bash
-git clone https://github.com/Priyanshu9898/Oral-Disease-Classification.git
+git clone https://github.com/MybcyQzqxw/Oral-Disease-Classification.git
 cd Oral-Disease-Classification
 ```
 
-2. **创建Python虚拟环境**
+2. **创建conda虚拟环境**
 ```bash
-python -m venv env
-source env/bin/activate  # Linux/Mac
-# 或
-env\Scripts\activate     # Windows
+conda create -n oral-disease python=3.8 -y
+conda activate oral-disease
 ```
 
 3. **安装依赖**
